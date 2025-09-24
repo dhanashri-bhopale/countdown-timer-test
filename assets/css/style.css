@@ -1,19 +1,20 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
 body{
-	color:#17d4fe;
-	background-color: #000;
-	height: 100vh;
+	background-color:palevioletred;
+	height : 100vh;
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	font-size:70px;
+	font-family:cursive;
 }
 
-.countDown{
-	font-size: 65px;
-	font-family: "Orbitron", sans-serif;
+.spread span{
+	transition: all .3s ease-in-out;
+	cursor:pointer;
+	display:inline-block;
+}
+
+.spread span:hover{
+	transform : translateY(-10px) scale(1.5) rotate(-10deg);
 }
